@@ -1,0 +1,25 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../LearningJava"
+        },
+        {
+            "path": "../LearningPython"
+        },
+        {
+            "path": "../kazirifatmorshed.github.io"
+        }, {
+            "path": "../Quote-of-my-day"
+        }, {
+            "path": "../Vitamin-C-Programming-book"
+        }, {
+            "path": "../LearningRUST-lang"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "kazirifatmorshed.github.io"
+    }
+}

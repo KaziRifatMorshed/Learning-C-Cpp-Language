@@ -1,0 +1,28 @@
+noobcoder_rtx@noobcoder-rtx3060 ~/D/G/L/P/GUI-gtk3 (master)> clang todo-yt.c -o todo-yt -lglfw -lGL -lleif -lclipboard -lm && ./todo-yt
+todo-yt.c:40:18: error: passing 'LfFont' to parameter of incompatible type 'LfFont *'; take the address with &
+   40 |     lf_push_font(_title_font), lf_text("Your To Do list"), lf_pop_font();
+      |                  ^~~~~~~~~~~
+      |                  &
+/usr/local/include/leif/leif.h:426:27: note: passing argument to parameter 'font' here
+  426 | void lf_push_font(LfFont* font);
+      |                           ^
+todo-yt.c:48:16: error: passing 'LfFont' to parameter of incompatible type 'LfFont *'; take the address with &
+   48 |   lf_free_font(_title_font);
+      |                ^~~~~~~~~~~
+      |                &
+/usr/local/include/leif/leif.h:210:27: note: passing argument to parameter 'font' here
+  210 | void lf_free_font(LfFont* font);
+      |                           ^
+2 errors generated.
+noobcoder_rtx@noobcoder-rtx3060 ~/D/G/L/P/GUI-gtk3 (master) [1]> gcc todo-yt.c -o todo-yt -lglfw -lGL -lleif -lclipboard -lm && ./todo-yt
+todo-yt.c: In function ‘main’:
+todo-yt.c:40:18: error: incompatible type for argument 1 of ‘lf_push_font’
+   40 |     lf_push_font(_title_font), lf_text("Your To Do list"), lf_pop_font();
+      |                  ^~~~~~~~~~~
+      |                  |
+      |                  LfFont
+In file included from todo-yt.c:12:
+/usr/local/include/leif/leif.h:426:27: note: expected ‘LfFont *’ but argument is of type ‘LfFont’
+  426 | void lf_push_font(LfFont* font);
+      |                   ~~~~~~~~^~~~
+noobcoder_rtx@noobcoder-rtx3060 ~/D/G/L/P/GUI-gtk3 (master) [1]> 

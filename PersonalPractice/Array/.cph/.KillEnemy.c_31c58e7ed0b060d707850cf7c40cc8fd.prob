@@ -1,0 +1,1 @@
+{"name":"Local: KillEnemy","url":"/mnt/LearningClang/PersonalPractice/Array/KillEnemy.c","tests":[{"id":1707986637933,"input":"6 15\n5 5 10 5 5 10","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/mnt/LearningClang/PersonalPractice/Array/KillEnemy.c","group":"local","local":true}

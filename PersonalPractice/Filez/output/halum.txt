@@ -1,0 +1,3 @@
+[writing data into file] Hello World
+ by fprintf	at line 10
+...abba dabba will be concateneted as it is after the function before

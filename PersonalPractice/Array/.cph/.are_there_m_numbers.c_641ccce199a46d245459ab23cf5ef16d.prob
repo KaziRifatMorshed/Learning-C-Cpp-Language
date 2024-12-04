@@ -1,0 +1,1 @@
+{"name":"Local: are_there_m_numbers","url":"/mnt/LearningClang/PersonalPractice/Array/are_there_m_numbers.c","tests":[{"id":1707985000247,"input":"5 2\n1 2 1 2 1","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/mnt/LearningClang/PersonalPractice/Array/are_there_m_numbers.c","group":"local","local":true}

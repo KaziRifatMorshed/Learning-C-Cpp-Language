@@ -1,0 +1,7 @@
+1. Write a program to get a string from the user. Replace all the occurrences of ''abc" in the string by ''cd". Output the result string after replacement.
+
+2. Write a program to get a string from the user. Replace all the occurrences of ''cd" in the string by ''abc". Output the result string after replacement.
+
+3. Write a program to get a string from the user. Remove all the spaces from the front and back of the input string. Finally, output the result string.
+
+4. Suppose you have an integer array that can contain 1000 elements. Scan the first 10 elements in the array. Now, put 45 at the 4th position so that the existing elements from the 4th to the 10th position go the 5th to 11th position respectively.
